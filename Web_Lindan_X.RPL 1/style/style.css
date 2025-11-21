@@ -1,0 +1,126 @@
+.navbar{
+    background-color: #181C14;
+    color:rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 40px;
+}
+.logo{
+    color:rgb(137, 40, 197);
+    font-size: 36px;
+    font-weight: 400;
+    font-family:fantasy;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-link li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+    border-radius: 5%;
+}
+.nav-link li a:hover{
+    background-color: rgb(0, 1, 1);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    padding: 4x 4x;
+
+}
+.jumbotron {
+    background-color: #777C6D;
+    color: white;
+    height: 60vh;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.jumbotron h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: #1d1d1d;
+    cursor: auto;
+}
+.jumbotron button {
+    background-color: #3C3D37;
+    color: white;
+    box-shadow: 3px 9px 12px #4e4747;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.wadah {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.bagian-baru {
+    padding: 120px;
+    background: #697565;
+}
+
+.new-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+.card.img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+.card.img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: #37353E;
+    border-radius: 8px;
+    height: 100%;
+    overflow: hidden;   
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 8px;
+    box-shadow: #697565;
+}
+.card:hover{
+    transform: translateY(-7px);
+}
+.card.body{
+    text-align: center;
+}
+.footer {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 30px 20px 15px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.footer-section h3{
+    margin-bottom: 10px;
+    color: #fafafa;
+}
+
+.footer-section p
+.footer-section li {
+    margin: 5px 0;
+}
